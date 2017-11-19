@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Home - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="content">
+        <div class="section-inner clearfix">
+
+        <h3>Welcome, {{ request.user.username }} !</h3>
+
+        <h4>Account details:</h4>
+
+        <ul>
+            <li id="account_no">Account number: {{ account }}</li>
+            <li>Last logged in: {{ request.user.last_login }}</li>
+        </ul>
+
+
+        </div>
+    </div>
+
+{% endblock %}

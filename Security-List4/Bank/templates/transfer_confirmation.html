@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Transfer confirmation - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="content">
+        <div class="section-inner clearfix">
+
+        <h3>Transfer sent!</h3>
+
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+        <ul>
+            <li>Recipient name: {{ recipient_name }} </li>
+            <li id="server_account">Recipient account: {{ recipient_account }}</li>
+            <li>Amount: {{ amount }}</li>
+        </ul>
+        <form action="" method="post">
+            {% csrf_token %}
+            <td><input type="hidden" name="next" value="{{ next|default:'/home/' }}"></td>
+            <td><input type="hidden" name="server" value="true"></td>
+            <td><input type="hidden" name="recipient_name" value={{ recipient_name }}></td>
+            <td><input type="hidden" name="recipient_account" value= {{ recipient_account }}></td>
+            <td><input type="hidden" name="amount" value="{{ amount }}"></td>
+            <td><input type="submit" value="Return to homepage" ></td>
+        </form>
+
+        </div>
+    </div>
+
+{% endblock %}

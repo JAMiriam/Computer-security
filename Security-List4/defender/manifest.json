@@ -1,0 +1,18 @@
+{
+
+  "description": "Provide security in web banking",
+  "manifest_version": 2,
+  "name": "Account Defender",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/security.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://127.0.0.1/*"],
+      "js": ["defender.js"]
+    }
+  ]
+
+}
