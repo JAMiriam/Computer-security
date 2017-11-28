@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+ {%load render_table from django_tables2 %}
+
+
+{% block title %}
+    History - {{ block.super }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="content">
+        <div class="section-inner clearfix">
+
+        <h2>History of transfers</h2>
+
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+        <form action="" method="post">
+            <td><label for="account">Receiver account</label></td>
+            <input type="text" name="account" />
+            <td><input type="hidden" name="search" value="true"></td>
+            <input type="submit" value="Search" />
+        </form>
+
+
+            {% render_table history_table %}
+
+        </div>
+    </div>
+
+{% endblock %}
