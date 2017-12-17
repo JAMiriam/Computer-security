@@ -124,7 +124,10 @@ void bclient::remove_sign(char *signed_message) {
     BIGNUM *s = BN_new();
     BN_hex2bn(&from, signed_message);
 
-    BN_mod_inverse(inverse, r, N, ctx);
+    BIGNUM *Nc = BN_new();
+    BN_with_flags(Nc, N, BN_FLG_CONSTTIME);
+    BN_mod_inverse(inverse, r, Nc, ctx);
+    BN_free(Nc);
     BN_mod_mul(s, inverse, from, N, ctx);
 
     if(bvrfy(s))
@@ -151,7 +154,7 @@ bool bclient::bvrfy(BIGNUM *message) {
     cout << "Verified in: ";
     cout << chrono::duration_cast<chrono::milliseconds>(end-start).count() << "ms" << endl;
 
-    BN_free(e_const);
+    BN_free(ec);
 
     int ret = strcmp(hashed, BN_bn2dec(h));
     BN_free(h);
