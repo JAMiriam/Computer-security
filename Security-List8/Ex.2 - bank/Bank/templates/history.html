@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+ {%load render_table from django_tables2 %}
+
+
+{% block title %}
+    History - {{ block.super }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="content">
+        <div class="section-inner clearfix">
+
+        <h2>History of transfers</h2>
+
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+        <h3>Sent</h3>
+            {% render_table sent %}
+        <h3>Received</h3>
+            {% render_table received %}
+
+        </div>
+    </div>
+
+{% endblock %}
+
