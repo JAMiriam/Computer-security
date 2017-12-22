@@ -1,0 +1,579 @@
+Private key: 0100111010101001
+Do you know some bits? Support inserting no:x no:x no:x
+2:0 6:1 13:0
+Bit number 2
+Zero known
+
+
+Bit number 3
+Variance when zero added: 8.649840e+02
+Variance when one added: 1.062561e+03
+Reapiting...
+Bit number 3
+Variance when zero added: 3.862032e+03
+Variance when one added: 6.698846e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 2.333010e+03
+Variance when one added: 2.539812e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 3.847423e+04
+Variance when one added: 1.417194e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 1.889740e+04
+Variance when one added: 6.732726e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 1.194365e+04
+Variance when one added: 3.091756e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 4.813177e+03
+Variance when one added: 5.586989e+03
+Reapiting...
+Bit number 3
+Variance when zero added: 1.334159e+04
+Variance when one added: 1.510013e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 1.690323e+04
+Variance when one added: 2.200430e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 2.493458e+04
+Variance when one added: 2.545487e+04
+Reapiting...
+Bit number 3
+Variance when zero added: 9.860733e+03
+Variance when one added: 1.217793e+04
+Zero wins
+Guessed key by now: 001 
+
+
+Bit number 4
+Variance when zero added: 4.803871e+04
+Variance when one added: 1.562767e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 1.635421e+04
+Variance when one added: 1.313531e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 8.552350e+03
+Variance when one added: 2.516388e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 2.513637e+04
+Variance when one added: 2.112652e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 2.712192e+04
+Variance when one added: 2.210398e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 1.910279e+03
+Variance when one added: 2.517424e+03
+Reapiting...
+Bit number 4
+Variance when zero added: 3.208851e+04
+Variance when one added: 2.656725e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 2.616167e+04
+Variance when one added: 2.459170e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 5.334354e+04
+Variance when one added: 4.611971e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 4.106832e+04
+Variance when one added: 2.030967e+04
+Reapiting...
+Bit number 4
+Variance when zero added: 1.738134e+04
+Variance when one added: 2.587381e+04
+One wins
+Guessed key by now: 1001 
+
+
+Bit number 5
+Variance when zero added: 1.595807e+04
+Variance when one added: 3.523456e+04
+Reapiting...
+Bit number 5
+Variance when zero added: 1.187663e+04
+Variance when one added: 1.259825e+04
+Reapiting...
+Bit number 5
+Variance when zero added: 8.219282e+03
+Variance when one added: 3.345656e+04
+Reapiting...
+Bit number 5
+Variance when zero added: 1.539124e+04
+Variance when one added: 6.544858e+03
+Reapiting...
+Bit number 5
+Variance when zero added: 2.411884e+04
+Variance when one added: 2.653316e+04
+Reapiting...
+Bit number 5
+Variance when zero added: 1.253417e+04
+Variance when one added: 2.183061e+04
+Reapiting...
+Bit number 5
+Variance when zero added: 4.844021e+04
+Variance when one added: 7.853130e+04
+Reapiting...
+Bit number 5
+Variance when zero added: 2.285576e+04
+Variance when one added: 2.622467e+04
+Reapiting...
+Bit number 5
+Variance when zero added: 7.298642e+03
+Variance when one added: 9.285333e+03
+Reapiting...
+Bit number 5
+Variance when zero added: 1.168150e+04
+Variance when one added: 9.828594e+03
+Reapiting...
+Bit number 5
+Variance when zero added: 1.649000e+04
+Variance when one added: 1.739363e+04
+Zero wins
+Guessed key by now: 01001
+
+
+Bit number 6
+One known
+
+
+Bit number 7
+Variance when zero added: 8.518250e+03
+Variance when one added: 3.768088e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 2.626712e+04
+Variance when one added: 1.668115e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 1.042455e+04
+Variance when one added: 1.053366e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 1.125077e+04
+Variance when one added: 4.708766e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 3.591467e+04
+Variance when one added: 4.328847e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 1.490314e+04
+Variance when one added: 1.324297e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 8.033076e+03
+Variance when one added: 8.168462e+03
+Reapiting...
+Bit number 7
+Variance when zero added: 9.627669e+03
+Variance when one added: 1.109942e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 7.584125e+03
+Variance when one added: 7.763858e+03
+Reapiting...
+Bit number 7
+Variance when zero added: 2.255820e+04
+Variance when one added: 2.666045e+04
+Reapiting...
+Bit number 7
+Variance when zero added: 1.332796e+04
+Variance when one added: 1.429915e+04
+Zero wins
+Guessed key by now: 0101001
+
+
+Bit number 8
+Variance when zero added: 1.759050e+04
+Variance when one added: 1.622299e+04
+Reapiting...
+Bit number 8
+Variance when zero added: 6.398511e+04
+Variance when one added: 3.926712e+04
+Reapiting...
+Bit number 8
+Variance when zero added: 1.053876e+04
+Variance when one added: 1.106191e+04
+Reapiting...
+Bit number 8
+Variance when zero added: 4.328168e+04
+Variance when one added: 1.868428e+04
+Reapiting...
+Bit number 8
+Variance when zero added: 8.654577e+03
+Variance when one added: 7.664871e+03
+Reapiting...
+Bit number 8
+Variance when zero added: 3.091796e+03
+Variance when one added: 1.176399e+04
+Reapiting...
+Bit number 8
+Variance when zero added: 8.653799e+03
+Variance when one added: 4.784365e+03
+Reapiting...
+Bit number 8
+Variance when zero added: 2.966975e+03
+Variance when one added: 1.700884e+04
+Reapiting...
+Bit number 8
+Variance when zero added: 4.108419e+04
+Variance when one added: 2.956561e+04
+Reapiting...
+Bit number 8
+Variance when zero added: 2.773274e+03
+Variance when one added: 2.233725e+03
+Reapiting...
+Bit number 8
+Variance when zero added: 1.371307e+03
+Variance when one added: 6.347928e+02
+One wins
+Guessed key by now: 10101001
+
+
+Bit number 9
+Variance when zero added: 1.233497e+04
+Variance when one added: 1.619527e+04
+Reapiting...
+Bit number 9
+Variance when zero added: 3.488828e+03
+Variance when one added: 2.192828e+03
+Reapiting...
+Bit number 9
+Variance when zero added: 7.064510e+03
+Variance when one added: 7.171745e+03
+Reapiting...
+Bit number 9
+Variance when zero added: 1.930524e+04
+Variance when one added: 8.366349e+02
+Reapiting...
+Bit number 9
+Variance when zero added: 4.219729e+02
+Variance when one added: 7.919439e+02
+Reapiting...
+Bit number 9
+Variance when zero added: 7.820586e+02
+Variance when one added: 2.026105e+03
+Reapiting...
+Bit number 9
+Variance when zero added: 3.712040e+02
+Variance when one added: 4.627900e+02
+Reapiting...
+Bit number 9
+Variance when zero added: 6.932900e+02
+Variance when one added: 8.370834e+03
+Reapiting...
+Bit number 9
+Variance when zero added: 7.462345e+03
+Variance when one added: 2.073506e+04
+Reapiting...
+Bit number 9
+Variance when zero added: 4.923413e+04
+Variance when one added: 1.716961e+04
+Reapiting...
+Bit number 9
+Variance when zero added: 8.043721e+03
+Variance when one added: 2.675810e+04
+Zero wins
+Guessed key by now: 010101001
+
+
+Bit number 10
+Variance when zero added: 2.364177e+04
+Variance when one added: 1.954890e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 1.578912e+04
+Variance when one added: 1.218668e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 4.691985e+04
+Variance when one added: 7.290465e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 5.058034e+04
+Variance when one added: 4.280020e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 4.179645e+04
+Variance when one added: 4.015667e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 3.738911e+04
+Variance when one added: 3.319608e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 9.030111e+04
+Variance when one added: 1.604129e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 1.132336e+04
+Variance when one added: 1.192233e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 1.215382e+04
+Variance when one added: 1.083330e+04
+Reapiting...
+Bit number 10
+Variance when zero added: 6.952280e+03
+Variance when one added: 6.454301e+03
+Reapiting...
+Bit number 10
+Variance when zero added: 1.984003e+04
+Variance when one added: 4.476108e+04
+One wins
+Guessed key by now: 1010101001
+
+
+Bit number 11
+Variance when zero added: 1.180673e+04
+Variance when one added: 1.068080e+04
+Reapiting...
+Bit number 11
+Variance when zero added: 1.202994e+04
+Variance when one added: 1.914174e+04
+Reapiting...
+Bit number 11
+Variance when zero added: 5.652423e+04
+Variance when one added: 8.406731e+03
+Reapiting...
+Bit number 11
+Variance when zero added: 1.143495e+04
+Variance when one added: 9.919645e+03
+Reapiting...
+Bit number 11
+Variance when zero added: 3.214922e+04
+Variance when one added: 2.641622e+04
+Reapiting...
+Bit number 11
+Variance when zero added: 5.619565e+04
+Variance when one added: 8.291768e+04
+Reapiting...
+Bit number 11
+Variance when zero added: 3.819616e+04
+Variance when one added: 2.998661e+04
+Reapiting...
+Bit number 11
+Variance when zero added: 5.670749e+04
+Variance when one added: 4.410286e+04
+Reapiting...
+Bit number 11
+Variance when zero added: 9.715780e+03
+Variance when one added: 9.111262e+03
+Reapiting...
+Bit number 11
+Variance when zero added: 1.326879e+04
+Variance when one added: 5.018509e+03
+Reapiting...
+Bit number 11
+Variance when zero added: 1.114813e+04
+Variance when one added: 1.213893e+04
+One wins
+Guessed key by now: 11010101001
+
+
+Bit number 12
+Variance when zero added: 4.978920e+04
+Variance when one added: 3.215865e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 4.341449e+04
+Variance when one added: 1.549926e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 2.372549e+04
+Variance when one added: 2.048599e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 1.653212e+04
+Variance when one added: 1.124225e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 1.645134e+04
+Variance when one added: 1.384720e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 1.257005e+04
+Variance when one added: 2.085729e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 1.709648e+04
+Variance when one added: 1.429631e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 7.102489e+04
+Variance when one added: 2.872820e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 1.440737e+04
+Variance when one added: 1.235304e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 1.460231e+04
+Variance when one added: 1.358865e+04
+Reapiting...
+Bit number 12
+Variance when zero added: 1.173143e+04
+Variance when one added: 1.698983e+04
+One wins
+Guessed key by now: 111010101001
+
+
+Bit number 13
+Zero known
+
+
+Bit number 14
+Variance when zero added: 6.386380e+04
+Variance when one added: 1.962799e+05
+Reapiting...
+Bit number 14
+Variance when zero added: 7.550982e+04
+Variance when one added: 2.001302e+04
+Reapiting...
+Bit number 14
+Variance when zero added: 1.464517e+03
+Variance when one added: 1.804495e+03
+Reapiting...
+Bit number 14
+Variance when zero added: 2.566420e+03
+Variance when one added: 2.416358e+03
+Reapiting...
+Bit number 14
+Variance when zero added: 1.122721e+04
+Variance when one added: 1.334253e+04
+Reapiting...
+Bit number 14
+Variance when zero added: 4.475254e+04
+Variance when one added: 2.800584e+04
+Reapiting...
+Bit number 14
+Variance when zero added: 4.349290e+03
+Variance when one added: 4.616707e+04
+Reapiting...
+Bit number 14
+Variance when zero added: 8.804370e+03
+Variance when one added: 1.092530e+04
+Reapiting...
+Bit number 14
+Variance when zero added: 1.131009e+04
+Variance when one added: 1.821974e+04
+Reapiting...
+Bit number 14
+Variance when zero added: 1.886610e+04
+Variance when one added: 2.282902e+04
+Reapiting...
+Bit number 14
+Variance when zero added: 8.733285e+03
+Variance when one added: 1.387049e+04
+Zero wins
+Guessed key by now: 00111010101001
+
+
+Bit number 15
+Variance when zero added: 1.291569e+04
+Variance when one added: 1.068271e+04
+Reapiting...
+Bit number 15
+Variance when zero added: 2.332846e+04
+Variance when one added: 8.286032e+04
+Reapiting...
+Bit number 15
+Variance when zero added: 4.795960e+04
+Variance when one added: 2.736104e+03
+Reapiting...
+Bit number 15
+Variance when zero added: 6.566844e+02
+Variance when one added: 3.101504e+02
+Reapiting...
+Bit number 15
+Variance when zero added: 3.514552e+03
+Variance when one added: 3.300730e+03
+Reapiting...
+Bit number 15
+Variance when zero added: 1.820318e+04
+Variance when one added: 2.634705e+03
+Reapiting...
+Bit number 15
+Variance when zero added: 1.945759e+04
+Variance when one added: 1.714362e+04
+Reapiting...
+Bit number 15
+Variance when zero added: 1.147402e+04
+Variance when one added: 3.446843e+02
+Reapiting...
+Bit number 15
+Variance when zero added: 2.129422e+04
+Variance when one added: 8.137521e+03
+Reapiting...
+Bit number 15
+Variance when zero added: 1.154229e+03
+Variance when one added: 1.130349e+03
+Reapiting...
+Bit number 15
+Variance when zero added: 4.354340e+03
+Variance when one added: 8.187470e+02
+One wins
+Guessed key by now: 100111010101001
+
+
+Bit number 16
+Variance when zero added: 5.219592e+02
+Variance when one added: 5.700451e+02
+Reapiting...
+Bit number 16
+Variance when zero added: 4.354476e+02
+Variance when one added: 1.004030e+04
+Reapiting...
+Bit number 16
+Variance when zero added: 1.126626e+04
+Variance when one added: 1.238377e+04
+Reapiting...
+Bit number 16
+Variance when zero added: 6.549056e+03
+Variance when one added: 7.656177e+03
+Reapiting...
+Bit number 16
+Variance when zero added: 1.242501e+03
+Variance when one added: 2.012297e+04
+Reapiting...
+Bit number 16
+Variance when zero added: 1.863454e+03
+Variance when one added: 7.656919e+03
+Reapiting...
+Bit number 16
+Variance when zero added: 4.018415e+02
+Variance when one added: 4.309714e+02
+Reapiting...
+Bit number 16
+Variance when zero added: 2.850887e+02
+Variance when one added: 3.534052e+02
+Reapiting...
+Bit number 16
+Variance when zero added: 3.761255e+02
+Variance when one added: 4.719692e+02
+Reapiting...
+Bit number 16
+Variance when zero added: 5.974895e+02
+Variance when one added: 6.412450e+02
+Reapiting...
+Bit number 16
+Variance when zero added: 3.215728e+02
+Variance when one added: 3.408432e+02
+Zero wins
+Guessed key by now: 0100111010101001
+
+
