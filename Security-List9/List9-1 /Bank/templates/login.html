@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% url '/login/' %}
+
+
+{% block title %}
+    Logging - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="content">
+        <div class="section-inner clearfix">
+
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+{#                <li>{{ message }}</li>#}
+                <p class="label label-danger"> {{ message }} </p>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if form.errors %}
+            <p class="label label-danger">
+                Your username and password did not match.
+                Please try again.
+            </p>
+        <br>
+        <br>
+        {% endif %}
+
+        <form action="" method="post">
+            {% csrf_token %}
+            <table>
+                <tr>
+                    <td><label for="id_username">Username</label></td>
+                    <td><input type="text" id="id_username" name="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="id_username">Password</label></td>
+                    <td><input type="password" id="id_password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="hidden" name="next" value="{{ next|default:'/home/' }}"></td>
+                    <td><input type="submit" value="Log In"></td>
+                </tr>
+                <tr>
+                    <script src='https://www.google.com/recaptcha/api.js'></script>
+                  <td></td>  <td><div class="g-recaptcha" data-sitekey="6LeyUT8UAAAAAKb2FHidc4SUyDmTO7haritUUCDF"></div></td>
+                </tr>
+            </table>
+        </form>
+
+
+        <ul>
+            <li><a href="{% url 'social:begin' 'twitter' %}">Login with Twitter</a></li>
+            <li><a href="{% url 'password_reset' %}">Forgot password?</a></li>
+        </ul>
+
+        </div>
+    </div>
+
+{% endblock %}

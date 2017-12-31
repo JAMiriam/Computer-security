@@ -1,0 +1,42 @@
+{% load static %}
+<link rel="stylesheet" href="https://bootswatch.com/3/united/bootstrap.min.css" />
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Secure Future Banking{% endblock %}</title>
+</head>
+<body style="margin-top: 50px;   margin-right: 100px;   margin-left: 100px;">
+<div style="clear: right;">
+    <p style="float: right;"><img src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/security-128.png" height="100" width="100" border="1px"></p>
+    <h1>Secure Future Banking</h1>
+    <h2>Your security starts here!</h2>
+</div>
+{% if user.is_authenticated %}
+<br>
+{#<br>#}
+    <nav class="breadcrumb">
+        <li><a href="/home/">Home</a></li>
+        <li><a href="/transfer_form/">Make transfer</a></li>
+        <li><a href="/history/">History</a></li>
+        <li><a href="{% url 'logout' %}">Logout</a></li>
+    </nav>
+{% endif %}
+{#<br>#}
+   <hr>
+    {% block content %}
+
+    {% endblock %}
+
+    <hr>
+
+    {% block footer %}
+        Our passion is your security. Have question? <a href="secure.future.banking@trulyproffesional.com">Contact us.</a>
+{#        {% if user.is_authenticated %}#}
+{#        <p><a href="{% url 'logout' %}">Logout</a></p>#}
+{#        {% endif %}#}
+    {% endblock %}
+
+</body>
+</html>
