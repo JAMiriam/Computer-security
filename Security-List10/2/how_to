@@ -1,0 +1,7 @@
+To compile: g++ -fno-stack-protector -std=c++11 bserver.cpp -o bserver -lssl -lcrypto
+            g++ -std=c++11 bclient.cpp -o bclient -lssl -lcrypto
+
+To run setup:   ./bserver 0 key/
+To run sign:    ./bserver 1 8080 key/2048_priv '950c45007a3eec19daa1620095be71a70e28ed9ebd03511402c882b868745764'
+Teraz: ./bserver 1
+To run client:  ./bclient 8080 key/2048_pub "I'll pass this course"
